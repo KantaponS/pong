@@ -42,7 +42,7 @@ function love.load()
     -- more "retro-looking" font object we can use for any text
     smallFont = love.graphics.newFont('font.ttf', 8)
 
-    -- set LÖVE2D's active font to the smallFont obect
+    -- set LÖVE2D's active font to the smallFont object
     love.graphics.setFont(smallFont)
 
     -- initialize window with virtual resolution
